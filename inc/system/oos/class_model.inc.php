@@ -32,6 +32,9 @@ abstract class model{
 	{
 		if(!$this->form)
 		{
+			// set the table name
+			$this->form['table']['name'] = $this->table_name();
+			// set the fields
 			$f = $this->_fields();
 
 			$i = array();
@@ -134,6 +137,11 @@ abstract class model{
 		{
 			$conf['cnf']['empty'] = false;
 			$conf['cnf']['err_empty'] = e::o('generic_form_error_empty',null,null,null,true);
+		}
+		if($data['Key'] == 'UNI')
+		{
+			$conf['cnf']['unique'] = 'true';
+			$conf['cnf']['err_unique'] = e::o('err_unique_generic');
 		}
 		return $conf;
 	}

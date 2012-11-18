@@ -59,7 +59,7 @@ class HOST_CONF
 	}
 	function pid($lang = null)
 	{
-		return 348;
+		return 1;
 	}
 	function notification()
 	{

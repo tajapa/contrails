@@ -134,17 +134,20 @@
 
 			//-- login fuer usr
 			$check = $this->MC->call_action(array('mod' => 'usradmin', 'event' => 'usr_validate'), $this->data);
-			
+
 			if (is_error($check)) 
 			{
 				forms::set_error_fields(array('usr'=>true,'pwd'=>true));
 				$this->OPC->error($check->txt);
-				return $this->set_start_view('login_show');
+				return $this->set_view('loginlogout');
 			}
 			else 
 			{
 				setcookie(CONF::project_name(),md5($check['usr']),time()+86400,"/",substr(CONF::baseurl(),7));
 				$this->CLIENT->set_auth($check);
+
+
+
 
 				// we need to refresh the window.location of the opener
 

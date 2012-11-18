@@ -1,0 +1,1 @@
+<?class tajapa_request extends generated_tajapa_request {} ?>

@@ -157,7 +157,7 @@ define('VALIDATOR_ERROR_FLDCOMPARE', 7);
 						break;
 					}
 				}
-				
+
 				if(is_array($check))
 				{
 					$tmp = $check;
@@ -235,7 +235,7 @@ define('VALIDATOR_ERROR_FLDCOMPARE', 7);
 			return $valid;
 		}
 		/**
-			compares the captcha info from the session against the one passed via POST
+		*	compares the captcha info from the session against the one passed via POST
 		*/
 		function valid_captcha($data,$cnf,$field)
 		{

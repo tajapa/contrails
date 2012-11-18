@@ -72,7 +72,7 @@
 				case 'usr_search':				return $this->view_usr_search();			break;
 				case 'usr_form':					return $this->view_usr_form();				break;
 				case 'usr_list':
-				default:									return $this->view_usr_list();
+				//default:									return $this->view_usr_list();
 			}
 			
 		}
@@ -172,7 +172,7 @@
 			$conf = $this->MC->table_config('mod_usradmin_usr');
 			$icon = '&nbsp;';
 			if ($conf['table']['icon']) {
-				$icon = '<img src="'.CONF::img_url().'icons/'.$conf['table']['icon'].'" alt="'.$conf['table']['label'].'">';
+				//$icon = '<img src="'.CONF::img_url().'icons/'.$conf['table']['icon'].'" alt="'.$conf['table']['label'].'">';
 			}
 			$this->set_var('tbl_icon', $icon);
 			$this->set_var('vid', &$this->vid);
@@ -264,7 +264,7 @@
 			$conf = $this->MC->table_config('mod_usradmin_grp');
 			$icon = '&nbsp;';
 			if ($conf['table']['icon']) {
-				$icon = '<img src="'.CONF::img_url().'icons/'.$conf['table']['icon'].'" alt="'.$conf['table']['label'].'">';
+				//$icon = '<img src="'.CONF::img_url().'icons/'.$conf['table']['icon'].'" alt="'.$conf['table']['label'].'">';
 			}
 			$this->set_var('tbl_icon', $icon);
 			

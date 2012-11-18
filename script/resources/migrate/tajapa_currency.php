@@ -205,6 +205,18 @@ $config = array
 			'template' => '0',
 			'parent' => NULL,
 		),
+		'9' => array
+		(
+			'id' => '26',
+			'uid' => '1',
+			'label' => 'community ',
+			'interest_rate' => '0',
+			'interest_term' => 'YEAR',
+			'source' => 'COMMUNITY',
+			'created' => '0',
+			'template' => '0',
+			'parent' => '1',
+		),
 	),
 
 );

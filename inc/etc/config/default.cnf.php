@@ -27,11 +27,11 @@ class HOST_CONF
 	}
 	function project_name()
 	{
-		return 'contrails';
+		return 'tajapa';
 	}
 	function baseurl()
 	{
-		return 'http://contrails.local';
+		return 'http://'.$_SERVER['SERVER_NAME'];
 	}
 	function default_layout()
 	{
@@ -41,9 +41,13 @@ class HOST_CONF
 	{
 		
 	}
-	function lang()
+	function default_lang()
 	{
 		return 'en';
+	}
+	function lang()
+	{
+		return 'de';
 	}
 	function guest()
 	{
@@ -53,13 +57,13 @@ class HOST_CONF
 	{
 		return 122;
 	}
-	function pid()
+	function pid($lang = null)
 	{
-		return 348;
+		return 4;
 	}
 	function notification()
 	{
-		return 'debug@hotoshi.com';
+		return 'log@hotoshi.com';
 	}
 	function db_options() 
 	{
@@ -71,7 +75,7 @@ class HOST_CONF
 				'db_host' => 'localhost',
 				'db_user' => 'root',
 				'db_pass' => 'root', 
-				'db_name' => 'contrails',
+				'db_name' => 'tajapa',
 			)
 		);
 	}

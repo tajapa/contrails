@@ -1,0 +1,1 @@
+<?class tajapa_location extends generated_tajapa_location {} ?>

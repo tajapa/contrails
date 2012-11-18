@@ -57,12 +57,15 @@ class FORMS
 	/**
 	* validate the form
 	*/
-	function valid($mode='enter')
+	function valid($data=array(),$mode='enter')
 	{
-		$v = new validator($this->conf);
-		if(!$v->is_valid(UTIL::get_post('data'),$mode))
+		if(count($data) == 0)
 		{
-			// set the errorfields
+			$data = UTIL::get_post('data');
+		}
+		$v = new validator($this->conf);
+		if(!$v->is_valid($data,$mode))
+		{
 			$this->set_error_fields($v->get_error_fields());
 			return false;
 		}
