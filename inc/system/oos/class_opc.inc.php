@@ -454,7 +454,7 @@ class OPC
 			else
 			{
 				$this->feedback_log($s,'error');
-				return $this->_flash_error[] = $s;	
+				return $this->_flash_error["F".md5($s)] = $s;	
 			}
 		}
 		return $this->_flash_error;
@@ -485,7 +485,7 @@ class OPC
 			else
 			{
 				$this->feedback_log($s,'warning');
-				return $this->_flash_warning[] = $s;	
+				return $this->_flash_warning["F".md5($s)] = $s;	
 			}
 		}
 		return $this->_flash_warning;
@@ -516,7 +516,7 @@ class OPC
 			else
 			{
 				$this->feedback_log($s,'success');
-				return $this->_flash_success[] = $s;	
+				return $this->_flash_success["F".md5($s)] = $s;	
 			}
 		}
 		return $this->_flash_success;
@@ -547,7 +547,7 @@ class OPC
 			else
 			{
 				$this->feedback_log($s,'information');
-				return $this->_flash_information[] = $s;	
+				return $this->_flash_information["F".md5($s)] = $s;	
 			}
 		}
 		return $this->_flash_information;  

@@ -34,7 +34,6 @@ class tajapa_marketplace_open_view extends modView
 	*/
 	function step1()
 	{
-
 		$f = $this->form('tajapa_marketplace');
 		$f->button('step1','Save');
 		$this->set_var('form',$f->show());

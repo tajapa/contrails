@@ -9,14 +9,18 @@ class tajapa_marketplace_main_view extends modView
 	{
 		$this->vid = $vid;
 		$this->OPC->lnk_add('vid',$vid);
+		
 		switch(strtolower($method_name)) 
 		{
+			case 'request':					$this->request();									break;
 			case 'open':					$this->open();										break;
 			case 'find':					$this->find();										break;
 		}
 	}
 	/**
 	*	show a market
+	*	in the first version, we only offer to add requests and offers to those
+	*	in a second version we allow to add standing offers
 	*/
 	function open()
 	{
@@ -24,11 +28,26 @@ class tajapa_marketplace_main_view extends modView
 		{
 			return $this->find();
 		}
-		// show tabs to switch between requests and offers
-		
-		// show a button to open the respective
-		// show a list of the respective
+		$r = $this->CRUD->load_range('tajapa_request','*',array('tajapa_marketplace'=>$m->id()));
+		if($r->nr() == 0)
+		{
+			return $this->request();
+		}
+		$this->set_var('list',$this->CRUD->load_range('tajapa_request','*',array('open'=>1)));
+		$this->show('open');
+	}
 
+	function request()
+	{
+		$f = $this->form('tajapa_request',null,array('uid','created','tajapa_marketplace','open'));
+		$f->button('request_save',e::o('save'));
+		$f->button('open',e::o('cancel'));
+		$this->set_var('form',$f->show());
+		$this->show('request');
+	}
+
+	function offer()
+	{
 		
 	}
 

@@ -19307,3 +19307,914 @@ Sun, 18 Nov 2012 18:26:51 +0100
     [id] => 61
 )
 '
+Sun, 18 Nov 2012 18:49:33 +0100
+'Failed to insert the record into the Database  	- Missing value for open (no default)
+Cannot set value of open: Value must be an int and nothing else.
+
+'
+Sun, 18 Nov 2012 18:56:10 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 18:56:10 +0100
+'Array
+(
+    [description] => asfasf
+)
+'
+Sun, 18 Nov 2012 18:56:10 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 18:56:10 +0100
+'Array
+(
+    [created] => 1353261370
+)
+'
+Sun, 18 Nov 2012 18:56:10 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 18:57:37 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 18:57:37 +0100
+'Array
+(
+    [description] => asfasf
+)
+'
+Sun, 18 Nov 2012 18:57:37 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 18:57:37 +0100
+'Array
+(
+    [created] => 1353261457
+)
+'
+Sun, 18 Nov 2012 18:57:37 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 18:58:14 +0100
+'Array
+(
+    [label] => asf
+)
+'
+Sun, 18 Nov 2012 18:58:14 +0100
+'Array
+(
+    [description] => asfd
+)
+'
+Sun, 18 Nov 2012 18:58:14 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 18:58:14 +0100
+'Array
+(
+    [created] => 1353261494
+)
+'
+Sun, 18 Nov 2012 18:58:14 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:00:01 +0100
+'Array
+(
+    [label] => asf
+)
+'
+Sun, 18 Nov 2012 19:00:01 +0100
+'Array
+(
+    [description] => asfd
+)
+'
+Sun, 18 Nov 2012 19:00:01 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:00:01 +0100
+'Array
+(
+    [created] => 1353261601
+)
+'
+Sun, 18 Nov 2012 19:00:02 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:00:16 +0100
+'Array
+(
+    [label] => asf
+)
+'
+Sun, 18 Nov 2012 19:00:16 +0100
+'Array
+(
+    [description] => asfd
+)
+'
+Sun, 18 Nov 2012 19:00:16 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:00:16 +0100
+'Array
+(
+    [created] => 1353261616
+)
+'
+Sun, 18 Nov 2012 19:00:16 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:02:32 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 19:02:32 +0100
+'Array
+(
+    [description] => test
+)
+'
+Sun, 18 Nov 2012 19:02:32 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:02:32 +0100
+'Array
+(
+    [created] => 1353261752
+)
+'
+Sun, 18 Nov 2012 19:02:32 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:02:59 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 19:02:59 +0100
+'Array
+(
+    [description] => test
+)
+'
+Sun, 18 Nov 2012 19:02:59 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:02:59 +0100
+'Array
+(
+    [created] => 1353261779
+)
+'
+Sun, 18 Nov 2012 19:02:59 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:03:32 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 19:03:32 +0100
+'Array
+(
+    [description] => test
+)
+'
+Sun, 18 Nov 2012 19:03:32 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:03:33 +0100
+'Array
+(
+    [created] => 1353261812
+)
+'
+Sun, 18 Nov 2012 19:03:33 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:04:04 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 19:04:04 +0100
+'Array
+(
+    [description] => test
+)
+'
+Sun, 18 Nov 2012 19:04:04 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:04:04 +0100
+'Array
+(
+    [created] => 1353261844
+)
+'
+Sun, 18 Nov 2012 19:04:04 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:04:19 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 19:04:19 +0100
+'Array
+(
+    [description] => test
+)
+'
+Sun, 18 Nov 2012 19:04:19 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:04:19 +0100
+'Array
+(
+    [created] => 1353261859
+)
+'
+Sun, 18 Nov 2012 19:04:19 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:04:31 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 19:04:31 +0100
+'Array
+(
+    [description] => test
+)
+'
+Sun, 18 Nov 2012 19:04:31 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:04:31 +0100
+'Array
+(
+    [created] => 1353261871
+)
+'
+Sun, 18 Nov 2012 19:04:31 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:04:45 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 19:04:45 +0100
+'Array
+(
+    [description] => test
+)
+'
+Sun, 18 Nov 2012 19:04:45 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:04:45 +0100
+'Array
+(
+    [created] => 1353261885
+)
+'
+Sun, 18 Nov 2012 19:04:45 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:04:56 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 19:04:56 +0100
+'Array
+(
+    [description] => test
+)
+'
+Sun, 18 Nov 2012 19:04:56 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:04:56 +0100
+'Array
+(
+    [created] => 1353261896
+)
+'
+Sun, 18 Nov 2012 19:04:56 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:05:21 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 19:05:21 +0100
+'Array
+(
+    [description] => test
+)
+'
+Sun, 18 Nov 2012 19:05:21 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:05:21 +0100
+'Array
+(
+    [created] => 1353261921
+)
+'
+Sun, 18 Nov 2012 19:05:21 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:05:45 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 19:05:45 +0100
+'Array
+(
+    [description] => test
+)
+'
+Sun, 18 Nov 2012 19:05:45 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:05:45 +0100
+'Array
+(
+    [created] => 1353261945
+)
+'
+Sun, 18 Nov 2012 19:05:45 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:06:23 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 19:06:23 +0100
+'Array
+(
+    [description] => test
+)
+'
+Sun, 18 Nov 2012 19:06:23 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:06:23 +0100
+'Array
+(
+    [created] => 1353261983
+)
+'
+Sun, 18 Nov 2012 19:06:23 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:07:48 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 19:07:49 +0100
+'Array
+(
+    [description] => test
+)
+'
+Sun, 18 Nov 2012 19:07:49 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:07:49 +0100
+'Array
+(
+    [created] => 1353262068
+)
+'
+Sun, 18 Nov 2012 19:07:49 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:07:49 +0100
+'Array
+(
+    [open] => 1
+)
+'
+Sun, 18 Nov 2012 19:07:49 +0100
+'Array
+(
+    [id] => 1
+)
+'
+Sun, 18 Nov 2012 19:11:04 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 19:11:04 +0100
+'Array
+(
+    [description] => test
+)
+'
+Sun, 18 Nov 2012 19:11:04 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:11:04 +0100
+'Array
+(
+    [created] => 1353262264
+)
+'
+Sun, 18 Nov 2012 19:11:04 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:11:04 +0100
+'Array
+(
+    [open] => 1
+)
+'
+Sun, 18 Nov 2012 19:11:05 +0100
+'Array
+(
+    [id] => 2
+)
+'
+Sun, 18 Nov 2012 19:13:05 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 19:13:05 +0100
+'Array
+(
+    [description] => test
+)
+'
+Sun, 18 Nov 2012 19:13:05 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:13:05 +0100
+'Array
+(
+    [created] => 1353262385
+)
+'
+Sun, 18 Nov 2012 19:13:05 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:13:05 +0100
+'Array
+(
+    [open] => 1
+)
+'
+Sun, 18 Nov 2012 19:13:05 +0100
+'Array
+(
+    [id] => 3
+)
+'
+Sun, 18 Nov 2012 19:15:12 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 19:15:12 +0100
+'Array
+(
+    [description] => test
+)
+'
+Sun, 18 Nov 2012 19:15:12 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:15:12 +0100
+'Array
+(
+    [created] => 1353262512
+)
+'
+Sun, 18 Nov 2012 19:15:12 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:15:12 +0100
+'Array
+(
+    [open] => 1
+)
+'
+Sun, 18 Nov 2012 19:15:12 +0100
+'Array
+(
+    [id] => 4
+)
+'
+Sun, 18 Nov 2012 19:17:15 +0100
+'Array
+(
+    [label] => test
+)
+'
+Sun, 18 Nov 2012 19:17:15 +0100
+'Array
+(
+    [description] => test
+)
+'
+Sun, 18 Nov 2012 19:17:15 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:17:15 +0100
+'Array
+(
+    [created] => 1353262635
+)
+'
+Sun, 18 Nov 2012 19:17:15 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:17:15 +0100
+'Array
+(
+    [open] => 1
+)
+'
+Sun, 18 Nov 2012 19:17:15 +0100
+'Array
+(
+    [id] => 5
+)
+'
+Sun, 18 Nov 2012 19:25:20 +0100
+'Array
+(
+    [label] => asdfafas
+)
+'
+Sun, 18 Nov 2012 19:25:20 +0100
+'Array
+(
+    [description] => asdfasdf
+)
+'
+Sun, 18 Nov 2012 19:25:21 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:25:21 +0100
+'Array
+(
+    [created] => 1353263120
+)
+'
+Sun, 18 Nov 2012 19:25:21 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:25:21 +0100
+'Array
+(
+    [open] => 1
+)
+'
+Sun, 18 Nov 2012 19:25:21 +0100
+'Array
+(
+    [id] => 6
+)
+'
+Sun, 18 Nov 2012 19:25:54 +0100
+'Array
+(
+    [label] => asdf
+)
+'
+Sun, 18 Nov 2012 19:25:54 +0100
+'Array
+(
+    [description] => asdf
+)
+'
+Sun, 18 Nov 2012 19:25:54 +0100
+'Array
+(
+    [uid] => 222
+)
+'
+Sun, 18 Nov 2012 19:25:54 +0100
+'Array
+(
+    [created] => 1353263154
+)
+'
+Sun, 18 Nov 2012 19:25:54 +0100
+'Array
+(
+    [tajapa_marketplace] => 57
+)
+'
+Sun, 18 Nov 2012 19:25:54 +0100
+'Array
+(
+    [open] => 1
+)
+'
+Sun, 18 Nov 2012 19:25:54 +0100
+'Array
+(
+    [id] => 7
+)
+'
+Sun, 18 Nov 2012 19:29:53 +0100
+'Array
+(
+    [label] => grannynanny
+)
+'
+Sun, 18 Nov 2012 19:29:53 +0100
+'Array
+(
+    [description] => asdfasf
+)
+'
+Sun, 18 Nov 2012 19:29:53 +0100
+'Array
+(
+    [uid] => 223
+)
+'
+Sun, 18 Nov 2012 19:29:53 +0100
+'Array
+(
+    [created] => 1353263393
+)
+'
+Sun, 18 Nov 2012 19:29:53 +0100
+'Array
+(
+    [active] => 1
+)
+'
+Sun, 18 Nov 2012 19:29:53 +0100
+'Array
+(
+    [tajapa_currency] => 0
+)
+'
+Sun, 18 Nov 2012 19:29:53 +0100
+'Array
+(
+    [url] => grannynanny
+)
+'
+Sun, 18 Nov 2012 19:29:53 +0100
+'Array
+(
+    [id] => 62
+)
+'
+Sun, 18 Nov 2012 19:30:12 +0100
+'Array
+(
+    [label] => asfasdf
+)
+'
+Sun, 18 Nov 2012 19:30:12 +0100
+'Array
+(
+    [description] => asf
+)
+'
+Sun, 18 Nov 2012 19:30:12 +0100
+'Array
+(
+    [uid] => 223
+)
+'
+Sun, 18 Nov 2012 19:30:12 +0100
+'Array
+(
+    [created] => 1353263411
+)
+'
+Sun, 18 Nov 2012 19:30:12 +0100
+'Array
+(
+    [tajapa_marketplace] => 62
+)
+'
+Sun, 18 Nov 2012 19:30:12 +0100
+'Array
+(
+    [open] => 1
+)
+'
+Sun, 18 Nov 2012 19:30:12 +0100
+'Array
+(
+    [id] => 8
+)
+'
+Sun, 18 Nov 2012 19:30:17 +0100
+'Array
+(
+    [label] => asdfasdf
+)
+'
+Sun, 18 Nov 2012 19:30:17 +0100
+'Array
+(
+    [description] => asdfasdf
+)
+'
+Sun, 18 Nov 2012 19:30:17 +0100
+'Array
+(
+    [uid] => 223
+)
+'
+Sun, 18 Nov 2012 19:30:17 +0100
+'Array
+(
+    [created] => 1353263417
+)
+'
+Sun, 18 Nov 2012 19:30:17 +0100
+'Array
+(
+    [tajapa_marketplace] => 62
+)
+'
+Sun, 18 Nov 2012 19:30:17 +0100
+'Array
+(
+    [open] => 1
+)
+'
+Sun, 18 Nov 2012 19:30:17 +0100
+'Array
+(
+    [id] => 9
+)
+'

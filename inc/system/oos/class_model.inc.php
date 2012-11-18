@@ -28,7 +28,7 @@ abstract class model{
 	/**
 	*	returns a form configuration to be used with the form and validator classes 
 	*/
-	public function form()
+	public function form($ignore=array())
 	{
 		if(!$this->form)
 		{
@@ -41,6 +41,10 @@ abstract class model{
 			if(method_exists($this,'form_ignore'))
 			{
 				$i = $this->form_ignore();
+			}
+			if(count($ignore)!=0)
+			{
+				$i = array_merge($i,$ignore);
 			}
 			
 			foreach($f as $field => $data)
@@ -93,7 +97,7 @@ abstract class model{
 					// @todo: items
 				break;
 				case 'text':
-					$conf['cnf']['type'] = 'input';
+					$conf['cnf']['type'] = 'textarea';
 					$conf['cnf']['format'] = 'text';
 					$conf['cnf']['err_format'] = e::o('err_text_generic');
 				break;

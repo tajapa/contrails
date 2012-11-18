@@ -1,0 +1,1 @@
+<?class tajapa_offer extends generated_tajapa_offer {} ?>

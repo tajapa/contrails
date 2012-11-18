@@ -56,6 +56,15 @@ $config = array
 			'Default' => NULL,
 			'Extra' => '',
 		),
+		'open' => array
+		(
+			'Field' => 'open',
+			'Type' => 'tinyint(1)',
+			'Null' => 'NO',
+			'Key' => '',
+			'Default' => '1',
+			'Extra' => '',
+		),
 	),
 	'keys' => array
 	(

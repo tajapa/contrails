@@ -496,6 +496,14 @@ class FORMS
 
 		return $ret;
 	}
+	function field_textarea($name, $cnf) 
+	{
+		$width  = (isset($cnf['width']))  ? $cnf['width'] : '400px';
+		$height = (isset($cnf['height'])) ? $cnf['height'] : '300px';
+		$field_name  = $this->form_prefix.'['.$name.']';
+		$field_value = "\n".((isset($this->values[$name])) ? $this->values[$name] : (isset($cnf['value']) ? $cnf['value'] : ''));
+		return '<textarea name="'.$field_name.'" style="width:'.$width.'; height:'.$height.'" '.($cnf['readonly'] ? 'readonly' : '').'>'.stripslashes($field_value).'</textarea>';
+	}
 /**
 *	
 *	input element

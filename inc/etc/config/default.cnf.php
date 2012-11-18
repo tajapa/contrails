@@ -9,7 +9,7 @@ class HOST_CONF
 	{
 		$dir = array
 		(
-			'log' => '/tmp/'
+			'log' => '/Users/T/Code/tajapa/log/'
 		);
 		if(isset($dir[$s]))
 		{
