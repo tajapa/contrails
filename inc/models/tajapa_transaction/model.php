@@ -1,0 +1,1 @@
+<?class tajapa_transaction extends generated_tajapa_transaction {} ?>

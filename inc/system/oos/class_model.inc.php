@@ -28,7 +28,7 @@ abstract class model{
 	/**
 	*	returns a form configuration to be used with the form and validator classes 
 	*/
-	public function form($ignore=array())
+	public function form($ignore=array(),$format=array())
 	{
 		if(!$this->form)
 		{
@@ -56,6 +56,13 @@ abstract class model{
 				if($fld = $this->form_parse_cnf($data))
 				{
 					$this->form['fields'][$field] = $fld;
+					if(isset($format[$field]) && is_array($format[$field]))
+					{
+						foreach($format[$field] as $k => $v)
+						{
+							$this->form['fields'][$field]['cnf'][$k] = $v;
+						}
+					}
 				}
 				
 			}
@@ -358,7 +365,7 @@ abstract class model{
 		return $data;
 	}
 
-	protected function _valid($value, $type, $size, $nullable = false){
+	protected function _valid($value, $type, $size=0, $nullable = false){
 		switch ($type) {
 			case 'int': 
 				if(is_int($value) === false && ctype_digit($value) === false){

@@ -17,9 +17,6 @@
 
   </head>
   <body>
-    <div id="logo">
-      <img src="/template/tajapa/tajapa/img/logo.png"/>
-    </div>
     <div class="navbar navbar-static-top">
       <div class="container">
         <?=$OPC->call('page','admin_panel')?>
@@ -28,7 +25,12 @@
             <?=$OPC->call('tajapa_navigation')?>
           </ul>
           <ul class="nav pull-right">
-            <?=$OPC->call('usradmin','loginlogout')?>
+            <li>
+              <?=tajapa_user::short($CLIENT->usr['id'])?>
+            </li>
+            <li>
+              <?=$OPC->call('usradmin','loginlogout')?>
+            </li>
           </ul>
         </div>
       </div>
@@ -69,7 +71,7 @@
       </div>
     </div>
     <div class="container">
-      <footer>© 2012 hotoshi ltd</footer>
+      <footer><?=tajapa_util::footer()?></footer>
     </div>
   </body>
 </html>

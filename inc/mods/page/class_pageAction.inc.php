@@ -161,11 +161,13 @@ class page_action extends modAction {
 	public function main($action,$params) 
 	{
 		
-		MC::log($action);
+		//MC::log($action);
 		
 		$this->vid = UTIL::get_post('vid');		//	(TODO) sanitize this
 		switch (strtolower($action['event']))
 		{
+			case 'access_denied':	$this->access_denied();				break;
+
 			case 'get_start_page':	$this->get_start_page();			break;
 			case 'get_my_path':		$this->get_my_path(); 				break;
 
@@ -195,6 +197,12 @@ class page_action extends modAction {
 		}
 
 	}
+
+	function access_denied()
+	{
+		$this->OPC->error(e::o('access_denied_redirection'));
+	}
+
 
 	/**
 	 *	returns the default pid

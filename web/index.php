@@ -1,4 +1,8 @@
 <?php
+
+	//ini_set('error_reporting', E_ALL);
+
+
 	ob_start();		 
 	/**
 	*	include necessary files:
@@ -60,6 +64,10 @@
     {
     	$MC->call_action($action);
     }
+	/**
+	*	finalize the models (actually write all changes to the db)
+	*/
+	$MOF->flush();
     /**
     *	set the start view
     */

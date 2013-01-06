@@ -1,0 +1,1 @@
+<?class tajapa_message extends generated_tajapa_message {} ?>

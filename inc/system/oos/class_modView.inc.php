@@ -319,7 +319,7 @@ class modView {
 		return $ret;
 	}
 	
-	function form($form,$id=null,$ignore=array())
+	function form($form,$id=null,$ignore=array(),$format=array())
 	{
 		if($id === null)
 		{
@@ -329,7 +329,7 @@ class modView {
 		{
 			$t = $this->MOF->obtain($form,$id);
 		}
-		$f = new FORMS($t->form($ignore));
+		$f = new FORMS($t->form($ignore,$format));
 		return $f;
 	}
 

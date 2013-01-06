@@ -1,5 +1,6 @@
 	<?
 $lang = array(
+	'access_denied_redirection' => 'Please log in to access this page',
 	'p_title_modul_rights' => array(
 		0 => 'Modulrechte'
 	),

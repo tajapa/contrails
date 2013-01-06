@@ -89,7 +89,7 @@
 				echo '<li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Login<strong class="caret"></strong></a><div class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">'.$f->show().'</div></li>';
 				return;
 			}
-			echo '<li><a href="'.$this->OPC->lnk(array('event'=>'logout','mod'=>'usradmin')).'">Logout [ '.$this->CLIENT->usr['usr'].' ]</a></li>';
+			echo '<li><a href="'.$this->OPC->lnk(array('event'=>'logout','mod'=>'usradmin')).'">Logout</a></li>';
 		}
 
 		/**

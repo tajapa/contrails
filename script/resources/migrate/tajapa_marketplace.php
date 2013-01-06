@@ -106,25 +106,14 @@ $config = array
 	(
 		'0' => array
 		(
-			'id' => '57',
+			'id' => '62',
 			'label' => 'grannynanny',
-			'description' => 'test',
-			'uid' => '221',
-			'created' => '1353257253',
-			'tajapa_currency' => '32',
+			'description' => 'asdfasf',
+			'uid' => '223',
+			'created' => '1353263393',
+			'tajapa_currency' => '34',
 			'active' => '1',
 			'url' => 'grannynanny',
-		),
-		'1' => array
-		(
-			'id' => '61',
-			'label' => 'grannynanny2',
-			'description' => 'asdf',
-			'uid' => '222',
-			'created' => '1353259611',
-			'tajapa_currency' => '33',
-			'active' => '1',
-			'url' => 'grannynanny2',
 		),
 	),
 

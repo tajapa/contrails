@@ -44,6 +44,11 @@ foreach($files as $file)
 
 switch(trim(@$argv[1]))
 {
+	case 'refresh':
+		clear();
+		deduct();
+		models();
+	break;
 	case 'deduct':
 		deduct();
 	break;
@@ -69,10 +74,19 @@ function help()
 }
 
 /**
+*	clears out the existing migrations
+*/
+function clear()
+{
+	exec("rm script/resources/migrate/*");
+}
+
+/**
 *	create a new set of models based on the current configuration
 */
 function models()
 {
+	verbose("MODELS");
 	global $base;
 	$d = scandir($base."script/resources/migrate/");
 	foreach($d as $file)
@@ -80,6 +94,7 @@ function models()
 		if(preg_match("/php/",$file) && is_file($base."script/resources/migrate/".$file))
 		{
 			$table = substr($file,0,-4);
+			verbose(strtoupper($table),1);
 			include($base."script/resources/migrate/".$file);
 			$s = "<?\nclass generated_".$table." extends model\n{\n";
 			// add some vars

@@ -123,43 +123,7 @@ $config = array
 		),
 		'2' => array
 		(
-			'id' => '30',
-			'uid' => '1',
-			'label' => 'community ',
-			'interest_rate' => '0',
-			'interest_term' => 'YEAR',
-			'source' => 'COMMUNITY',
-			'created' => '0',
-			'template' => '0',
-			'parent' => '1',
-		),
-		'3' => array
-		(
-			'id' => '31',
-			'uid' => '1',
-			'label' => 'community ',
-			'interest_rate' => '0',
-			'interest_term' => 'YEAR',
-			'source' => 'COMMUNITY',
-			'created' => '0',
-			'template' => '0',
-			'parent' => '1',
-		),
-		'4' => array
-		(
-			'id' => '32',
-			'uid' => '1',
-			'label' => 'community ',
-			'interest_rate' => '0',
-			'interest_term' => 'YEAR',
-			'source' => 'COMMUNITY',
-			'created' => '0',
-			'template' => '0',
-			'parent' => '1',
-		),
-		'5' => array
-		(
-			'id' => '33',
+			'id' => '34',
 			'uid' => '1',
 			'label' => 'local',
 			'interest_rate' => '-2',

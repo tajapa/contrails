@@ -1,0 +1,1 @@
+<?class tajapa_rank extends generated_tajapa_rank {} ?>

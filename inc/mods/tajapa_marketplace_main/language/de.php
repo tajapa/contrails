@@ -1,0 +1,37 @@
+<?
+$lang = array
+(
+	'offer_fulfilled_success' => 'offer_fulfilled_success',
+	'offer_book_success' => 'offer_book_success',
+	'no_market_found' => 'no_market_found',
+	'no_requests_found' => 'no_requests_found',
+	'no_transactions_found' => 'no_transactions_found',
+	'no_offers_found' => 'no_offers_found',
+	'quote_place' => 'quote_place',
+	'save' => 'save',
+	'cancel' => 'cancel',
+	'nothing_found' => 'nothing_found',
+	'my_offers_headline' => 'my_offers_headline',
+	'my_offers_content' => 'my_offers_content',
+	'expires' => 'expires',
+	'pending_fulfillment' => 'pending_fulfillment',
+	'my_requests_headline' => 'my_requests_headline',
+	'my_requests_content' => 'my_requests_content',
+	'create' => 'create',
+	'expired' => 'expired',
+	'fulfilled' => 'fulfilled',
+	'book' => 'book',
+	'for' => 'for',
+	'btn_fulfilled_5_stars' => 'btn_fulfilled_5_stars',
+	'btn_fulfilled_4_stars' => 'btn_fulfilled_4_stars',
+	'btn_fulfilled_3_stars' => 'btn_fulfilled_3_stars',
+	'btn_fulfilled_2_stars' => 'btn_fulfilled_2_stars',
+	'btn_fulfilled_1_stars' => 'btn_fulfilled_1_stars',
+	'my_transactions_headline' => 'my_transactions_headline',
+	'my_transactions_content' => 'my_transactions_content',
+	'open_headline' => 'open_headline',
+	'open_content' => 'open_content',
+	'link_tajapa_marketplace_main' => 'link_tajapa_marketplace_main',
+
+);
+?>

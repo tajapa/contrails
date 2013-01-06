@@ -269,7 +269,7 @@ define('VALIDATOR_ERROR_FLDCOMPARE', 7);
 			if (!isset($cnf['empty'])) $cnf['empty'] = true;
 			
 			// leer und darf es nicht sein ?
-			if ($cnf['empty'] == false && $data == '') return VALIDATOR_ERROR_EMPTY;
+			if ($cnf['empty'] == false && strlen($data) == 0) return VALIDATOR_ERROR_EMPTY;
 
 			// compare
 			if (isset($cnf['compare']) && $this->valid_compare($data, $cnf['compare'],$cnf['type']) == false) return VALIDATOR_ERROR_COMPARE;

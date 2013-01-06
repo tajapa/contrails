@@ -1,0 +1,1 @@
+<?class tajapa_account extends generated_tajapa_account {} ?>

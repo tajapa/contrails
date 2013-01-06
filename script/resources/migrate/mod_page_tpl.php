@@ -54,9 +54,44 @@ $config = array
 	(
 		'0' => array
 		(
+			'id' => '0',
+			'tpl_name' => 'tajapa_marketplace.php',
+			'label' => 'TAJAPA MARKETPLACE',
+			'sys_trashcan' => '0',
+		),
+		'1' => array
+		(
 			'id' => '6',
 			'tpl_name' => 'contrails.php',
 			'label' => 'CONTRAILS',
+			'sys_trashcan' => '0',
+		),
+		'2' => array
+		(
+			'id' => '7',
+			'tpl_name' => 'tajapa_marketplace_create.php',
+			'label' => 'TAJAPA MARKETPLACE CREATE',
+			'sys_trashcan' => '1',
+		),
+		'3' => array
+		(
+			'id' => '8',
+			'tpl_name' => 'tajapa.php',
+			'label' => 'TAJAPA',
+			'sys_trashcan' => '0',
+		),
+		'4' => array
+		(
+			'id' => '9',
+			'tpl_name' => 'tajapa_marketplace_find.php',
+			'label' => 'TAJAPA MARKETPLACE FIND',
+			'sys_trashcan' => '0',
+		),
+		'5' => array
+		(
+			'id' => '10',
+			'tpl_name' => 'tajapa_marketplace_open.php',
+			'label' => 'TAJAPA MARKETPLACE OPEN',
 			'sys_trashcan' => '0',
 		),
 	),

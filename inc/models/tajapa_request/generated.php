@@ -9,7 +9,7 @@ class generated_tajapa_request extends model
 
 	protected function _fields()
 	{
-		return array('id' => array('Field' => 'id','Type' => 'int(11) unsigned','Null' => 'NO','Key' => 'PRI','Default' => NULL,'Extra' => 'auto_increment',),'uid' => array('Field' => 'uid','Type' => 'int(11)','Null' => 'NO','Key' => '','Default' => NULL,'Extra' => '',),'created' => array('Field' => 'created','Type' => 'int(11)','Null' => 'NO','Key' => '','Default' => NULL,'Extra' => '',),'tajapa_marketplace' => array('Field' => 'tajapa_marketplace','Type' => 'int(11)','Null' => 'NO','Key' => '','Default' => NULL,'Extra' => '',),'label' => array('Field' => 'label','Type' => 'varchar(255)','Null' => 'NO','Key' => '','Default' => '','Extra' => '',),'description' => array('Field' => 'description','Type' => 'text','Null' => 'NO','Key' => '','Default' => NULL,'Extra' => '',),'open' => array('Field' => 'open','Type' => 'tinyint(1)','Null' => 'NO','Key' => '','Default' => '1','Extra' => '',),);
+		return array('id' => array('Field' => 'id','Type' => 'int(11) unsigned','Null' => 'NO','Key' => 'PRI','Default' => NULL,'Extra' => 'auto_increment',),'uid' => array('Field' => 'uid','Type' => 'int(11)','Null' => 'NO','Key' => '','Default' => NULL,'Extra' => '',),'created' => array('Field' => 'created','Type' => 'int(11)','Null' => 'NO','Key' => '','Default' => NULL,'Extra' => '',),'tajapa_marketplace' => array('Field' => 'tajapa_marketplace','Type' => 'int(11)','Null' => 'NO','Key' => '','Default' => NULL,'Extra' => '',),'label' => array('Field' => 'label','Type' => 'varchar(255)','Null' => 'NO','Key' => '','Default' => '','Extra' => '',),'description' => array('Field' => 'description','Type' => 'text','Null' => 'NO','Key' => '','Default' => NULL,'Extra' => '',),'status' => array('Field' => 'status','Type' => 'tinyint(1)','Null' => 'NO','Key' => '','Default' => '1','Extra' => '',),'expires' => array('Field' => 'expires','Type' => 'int(11)','Null' => 'YES','Key' => '','Default' => NULL,'Extra' => '',),);
 	}
 
 	public function table_name()
@@ -108,7 +108,7 @@ class generated_tajapa_request extends model
 		return $this->_fields['description'];
 	}
 
-	public function open($d=null)
+	public function status($d=null)
 	{
 		if($d !== null)
 		{
@@ -116,11 +116,26 @@ class generated_tajapa_request extends model
 			{
 				return false;
 			}
-			$this->push_update(array('open'=>$d));
-			$this->_fields['open'] = $d;
+			$this->push_update(array('status'=>$d));
+			$this->_fields['status'] = $d;
 			return true;
 		}
-		return $this->_fields['open'];
+		return $this->_fields['status'];
+	}
+
+	public function expires($d=null)
+	{
+		if($d !== null)
+		{
+			if(!$this->_valid($d,'int',11))
+			{
+				return false;
+			}
+			$this->push_update(array('expires'=>$d));
+			$this->_fields['expires'] = $d;
+			return true;
+		}
+		return $this->_fields['expires'];
 	}
 }
 ?>

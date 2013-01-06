@@ -53,19 +53,16 @@
 			{   	 
 					
 				// is the user allowed to see this page?
-				/*
+				
 				if(isset($this->pid))
 				{
 					if(!in_array($this->pid,$this->CLIENT->get_allowed_pages()))
 					{
-						// add the desired url to the session, so we can redirect the user after login
-						// create a new session
-						$this->SESS->set('after_login','url',CONF::baseurl()."/".$_SERVER['REQUEST_URI']);
-						header("Location: ".CONF::baseurl()."/".$this->OPC->lnk(array('pid'=>CONF::pid())));
-						
+						header("Location: ".CONF::baseurl()."/".$this->OPC->lnk(array('mod'=>'page','event'=>'access_denied','pid'=>CONF::pid())));
+						die;
 					}
 				}
-				*/
+				
 
 				$this->templates_dir = CONF::inc_dir() . '/mods/page/assets/';								
 				$this->vid = $vid;

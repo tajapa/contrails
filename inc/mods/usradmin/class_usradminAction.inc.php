@@ -1280,7 +1280,7 @@
 		function action_usr_exists($params)
 		{
 			$cache = isset($params['cache']) ? $params['cache'] : true;
-			$select = 'SELECT id FROM '.$this->tbl_usr.' WHERE usr = "'.$params['usr'].'"';
+			$select = 'SELECT id FROM '.$this->tbl_usr.' WHERE usr = "'.mysql_real_escape_string($params['usr']).'"';
 			$res = $this->DB->query($select,$cache);
 			if($res->nr() == 1){
 				return $res->f('id');

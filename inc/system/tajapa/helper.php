@@ -21,6 +21,26 @@ class tajapa_helper
 		return false;
 	}
 
+	function market_find()
+	{
+		$CRUD = &DB_CRUD::singleton();
+		$MOF = &MF::singleton();
+		// get the marketplace from the url
+		$market = tajapa_helper::marketfromurl();
+		if($market === false)
+		{
+			return false;
+		}
+		// get the id
+		$r = $CRUD->load('tajapa_marketplace','url',$market);
+		if($r->nr() != 1 || !is_object($r))
+		{
+			return false;
+		}		
+		$m = $MOF->obtain('tajapa_marketplace',$r->f('id'));
+		return $m;
+	}
+
 	function labeltosubdomain($s)
 	{
 		return UTIL::norm($s);
